@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Members Area
 
 > One paragraph statement about the project.
 
@@ -10,9 +10,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby on Rails
+- Text Editor
 
 ## Live Demo
 
@@ -29,13 +28,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Text Editor
+- Ruby installed.
+- Ruby on rails installed.
+- Bundler installed
+
 ### Setup
 
-### Install
+- The first you need to run the project, is download all the dependecies... running this command `bundle install`
 
 ### Usage
 
-### Run tests
+- To initialize the server... run `rails s`
+- You will be able to access through your browser on this url: `127.0.0.1:3000`
 
 ### Deployment
 
@@ -45,21 +50,14 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/luis-vinicius)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/luisvinicius09/members-area/issues).
 
 ## Show your support
 
@@ -70,7 +68,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
