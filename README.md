@@ -46,9 +46,9 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Luis Vinicius Marques**
 
 - GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/luis-vinicius)
