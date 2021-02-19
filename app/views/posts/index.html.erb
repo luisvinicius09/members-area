@@ -8,20 +8,22 @@
   <% end %>
   <h1>Posts</h1>
   <hr/>
-  <% @posts.each do |post|%>
-    <div class="post-container">
-      <div>
-        <h2 class="m-0-p-0"><%= post.title %></h2><br/>
-        <hr class="m-0-p-0" />
-        <% if user_signed_in? %>
-          <p><%= post.user.name %></p>
-        <% end %>
+  <div class="posts-container">
+    <% @posts.each do |post|%>
+      <div class="post-container">
+        <div>
+          <h2 class="m-0-p-0"><%= post.title %></h2><br/>
+          <hr class="m-0-p-0" />
+          <% if user_signed_in? %>
+            <p><%= post.user.name %></p>
+          <% end %>
+        </div>
+        <div>
+          <h4><%= post.body %></h4>
+        </div>
       </div>
-      <div>
-        <h4><%= post.body %></h4>
-      </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
 
 <br>

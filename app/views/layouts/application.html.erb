@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <% if flash[:notice] %>
+
+    <% end %>
+    <% if flash[:alert] %>
+
+    <% end %>
+    
     <nav class="navbar">
       <div class="container">
         <% if user_signed_in? %>
