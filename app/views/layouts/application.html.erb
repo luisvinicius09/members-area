@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MembersArea</title>
+    <title>Members Area</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -16,20 +16,7 @@
 
     <nav class="navbar">
       <div class="container">
-        <% if user_signed_in? %>
-          <p class="control">
-            <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "button" %>
-          </p>
-        <% else %>
-          <div style="display: flex">
-            <p class="control">
-              <%= link_to "Sign In", new_user_session_path, class: "button" %>
-            </p>
-            <p class="control">
-              <%= link_to "Sign Up", new_user_registration_path, class: "button" %>
-            </p>
-          </div>
-        <% end %>
+        <%= buttons(user_signed_in?)%>
       </div>
     </nav>
     <%= yield %>
