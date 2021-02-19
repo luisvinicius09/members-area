@@ -6,7 +6,7 @@ module PostsHelper
       </div>".html_safe if var
     end
   end
-  
+
   def second_useless_helper(var, var2)
     render inline: '<p>' + var2.user.name + '</p>'.html_safe if var
   end
