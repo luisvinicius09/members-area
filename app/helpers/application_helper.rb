@@ -21,7 +21,6 @@ module ApplicationHelper
         <%= link_to "Sign Up", new_user_registration_path, class: "button" %>
       </p>
       </div>'.html_safe
-    end 
+    end
   end
-
 end
