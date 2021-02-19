@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ .m-0-p-0 {
+   margin: 0;
+   padding: 0;
+ }
+
+ .post-container {
+   border: 1px solid black;
+   border-radius: 10px;
+   max-width: 300px;
+   padding: 20px;
+   margin: 10px;
+ }
+
+ .control {
+   margin: 5px;
+ }
+
+ .button {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 5px;
+ }

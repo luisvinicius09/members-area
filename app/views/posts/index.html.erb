@@ -1,10 +1,18 @@
 <p id="notice"><%= notice %></p>
-<div class="post-container">
-  <h1>Posts</h1>
-  <% @posts.each do |post|%>
+<div>
+  <% if user_signed_in? %>
     <div>
+      <h2>Create your post!</h2>
+      <%= link_to 'New Post', new_post_path, class: "button" %>
+    </div>
+  <% end %>
+  <h1>Posts</h1>
+  <hr/>
+  <% @posts.each do |post|%>
+    <div class="post-container">
       <div>
-        <h2><%= post.title %></h2><br/>
+        <h2 class="m-0-p-0"><%= post.title %></h2><br/>
+        <hr class="m-0-p-0" />
         <% if user_signed_in? %>
           <p><%= post.user.name %></p>
         <% end %>
@@ -17,7 +25,4 @@
 </div>
 
 <br>
-<% if user_signed_in? %>
-  <h2>You can create you post right here!</h2>
-  <%= link_to 'New Post', new_post_path %>
-<% end %>
+
