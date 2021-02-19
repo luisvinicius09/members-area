@@ -11,17 +11,9 @@
   </head>
 
   <body>
-    <% if flash[:notice] %>
-      <div class="notification">
-        <p class="notice"><%= notice %></p>
-      </div>
-    <% end %>
-    <% if flash[:alert] %>
-      <div class="notification">
-        <p class="alert"><%= alert %></p>
-      </div>
-    <% end %>
-    
+    <%= notice_notification() %>
+    <%= alert_notification() %>
+
     <nav class="navbar">
       <div class="container">
         <% if user_signed_in? %>

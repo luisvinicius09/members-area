@@ -1,10 +1,6 @@
 <div>
-  <% if user_signed_in? %>
-    <div>
-      <h2>Create your post!</h2>
-      <%= link_to 'New Post', new_post_path, class: "button" %>
-    </div>
-  <% end %>
+  <%= useless_helper(user_signed_in?) %>
+  
   <h1>Posts</h1>
   <hr/>
   <div class="posts-container">
