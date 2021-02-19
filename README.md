@@ -2,48 +2,37 @@
 
 # Members Area
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> Implementation of a members only area, to create posts.
 
 ## Built With
 
+- Ruby
 - Ruby on Rails
 - Text Editor
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
+- Clone or download the repository/files.
+
 ### Prerequisites
 
 - Text Editor
-- Ruby installed.
-- Ruby on rails installed.
-- Bundler installed
+- [Ruby](https://rubyinstaller.org/downloads/) installed.
+- [Ruby on rails](https://guides.rubyonrails.org/v5.0/getting_started.html) installed.
+- [Bundler](https://bundler.io) installed
 
 ### Setup
 
 - The first you need to run the project, is download all the dependecies... running this command `bundle install`
+- The second thing is to migrate the database... running `rails db:migrate`
 
 ### Usage
 
 - To initialize the server... run `rails s`
 - You will be able to access through your browser on this url: `127.0.0.1:3000`
-
-### Deployment
-
 
 
 ## Author
