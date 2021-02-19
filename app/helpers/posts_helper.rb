@@ -5,4 +5,3 @@ module PostsHelper
     end
   end
 end
-
