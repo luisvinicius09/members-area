@@ -6,7 +6,7 @@
       <div>
         <h2><%= post.title %></h2><br/>
         <% if user_signed_in? %>
-          <p><%= post.user %></p>
+          <p><%= post.user.name %></p>
         <% end %>
       </div>
       <div>
