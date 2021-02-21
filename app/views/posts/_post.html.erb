@@ -1,12 +1,10 @@
-<% @posts.each do |post|%>
-  <div class="post-container">
-    <div>
-      <h2 class="m-0-p-0"><%= post.title %></h2><br/>
-      <hr class="m-0-p-0" />
-      <%= second_useless_helper(user_signed_in?, post) %>
-    </div>
-    <div>
-      <h4><%= post.body %></h4>
-    </div>
+<div class="post-container">
+  <div>
+    <h2 class="m-0-p-0"><%= post.title %></h2><br/>
+    <hr class="m-0-p-0" />
+    <%= second_useless_helper(user_signed_in?, post) %>
   </div>
-<% end %>
+  <div>
+    <h4><%= post.body %></h4>
+  </div>
+</div>
